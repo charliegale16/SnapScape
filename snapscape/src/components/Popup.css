@@ -1,0 +1,62 @@
+/* Popup.css */
+
+/* Style the modal backdrop */
+.modal-backdrop {
+    opacity: 0.5; /* Adjust the opacity as needed */
+    background-color: #000; /* Background color of the backdrop */
+  }
+  
+  /* Style the modal content */
+  .modal-content {
+    background-color: #fff; /* Background color of the modal */
+    border-radius: 10px; /* Border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow for a raised effect */
+    height: 350px;
+    width: 350px;
+    justify-content: center;
+  }
+  
+  /* Style the modal header */
+  .modal-header {
+    border-bottom: none; /* Remove the border bottom */
+  }
+  
+  /* Style the modal title */
+  .modal-title {
+    font-weight: bold; /* Make the title bold */
+    text-align: center;
+  }
+  
+  /* Style the modal body */
+  .modal-body {
+    padding: 20px; /* Add padding to the body */
+    text-align: center;
+  }
+  
+  /* Style the modal footer */
+  .modal-footer {
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 35%;
+
+  }
+  
+  /* Style the close button */
+  .close {
+    color: #000; /* Color of the close button */
+    opacity: 0.5; /* Adjust the opacity as needed */
+  }
+  
+  .close:hover {
+    opacity: 1; /* Change the opacity on hover */
+  }
+
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

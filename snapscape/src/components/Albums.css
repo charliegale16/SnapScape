@@ -1,0 +1,22 @@
+container {
+    position: relative; /* Ensure the container is positioned */
+    height: 100vh; /* Set container height to full viewport height */
+    width: 100%;
+  }
+h1{
+    margin-top: 100px;
+    position: center;
+    
+    
+}
+  
+  .bottom-right-button {
+    position: absolute; /* Position the button absolutely within the container */
+    bottom: 20px; /* Distance from the bottom of the container */
+    right: 20px; /* Distance from the right of the container */
+  }
+
+  button {
+    height: auto;
+    width: auto;
+  }

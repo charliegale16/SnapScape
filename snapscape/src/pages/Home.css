@@ -1,0 +1,61 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background color and font styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header */
+header {
+  color: black;
+  text-align: center;
+  margin-top: -40px;
+}
+
+/* Style the main content */
+main {
+  padding: 1rem;
+}
+
+/* Style links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.addButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .addButton:hover {
+    background-color: #0056b3;
+  }
